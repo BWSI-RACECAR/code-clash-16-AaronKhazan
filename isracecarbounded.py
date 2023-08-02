@@ -72,7 +72,7 @@ class Solution:
                       L+=1
                 if i == "R":
                       R+=1
-            if R == L:
+            if R == L == G:
                 return True
             else:
                 return False
