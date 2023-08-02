@@ -68,14 +68,14 @@ class Solution:
             for i in instructions:
                 if i == "G":
                       G+=1
-                if i == "L":
+                elif i == "L":
                       L+=1
-                if i == "R":
+                elif i == "R":
                       R+=1
-            if R == L == G:
-                return True
-            else:
+            if R == L:
                 return False
+            else:
+                return True
             pass
         
 def main():
